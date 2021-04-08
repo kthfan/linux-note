@@ -39,3 +39,11 @@ du -h
 du -hs /home
 sort -nr note.txt
 sort -n -t ":" -k 3 /etc/passwd
+gzip file1
+gunzip file1.gz
+bzip2 file1
+bunzip2 file1.bz2
+tar cvf my.tar /etc
+tar tvf my.tar
+tar xvf my.tar
+tar cvfz
