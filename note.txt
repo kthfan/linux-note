@@ -32,3 +32,10 @@ top
 wc note.txt
 mount
 more /proc/cpuinfo
+dmesg
+umount /mnt
+df -h
+du -h
+du -hs /home
+D
+du -hs
