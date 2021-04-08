@@ -1,4 +1,3 @@
-
 ls -FR
 pwd
 cd 
@@ -37,5 +36,14 @@ umount /mnt
 df -h
 du -h
 du -hs /home
-D
-du -hs
+sort -nr note.txt
+sort -n -t ":" -k 3 /etc/passwd
+gzip file1
+gunzip file1.gz
+bzip2 file1
+bunzip2 file1.bz2
+tar cvf my.tar /etc
+tar tvf my.tar
+tar xvf my.tar
+tar cvfz
+mount -o loop mini-jinx.iso /media/cdrom0
