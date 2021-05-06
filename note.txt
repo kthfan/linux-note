@@ -1,0 +1,72 @@
+ls -FR
+pwd
+cd 
+mkdir
+cp
+rm
+cd /tmp
+cat /etc/passdwd
+more /etc/passwd
+less /etc/passwd
+sudo more /etc/shadow
+ls -l /usr/bin > ofile
+cat -n ofile
+cat > myfile
+cat -n myfile
+cat -b myfile
+mv myfile ofile
+ls -ali
+cp -l ofile pfile
+file ofile
+cp -s ofile pfile
+ls -al /usr/bin | more
+ls -l /usr/bin | head -n 20
+find / -name "*zip*" -print
+find / -name "*zip*" -print 2> /dev/null
+ps
+ps -ef
+ps aux
+kill -9 1234
+top
+wc note.txt
+mount
+more /proc/cpuinfo
+dmesg
+umount /mnt
+df -h
+du -h
+du -hs /home
+sort -nr note.txt
+sort -n -t ":" -k 3 /etc/passwd
+gzip file1
+gunzip file1.gz
+bzip2 file1
+bunzip2 file1.bz2
+tar cvf my.tar /etc
+tar tvf my.tar
+tar xvf my.tar
+tar cvfz
+mount -o loop mini-jinx.iso /media/cdrom0
+env
+echo $USER
+set
+n1=13
+bash
+exit
+export n1
+unset n1
+expr 13 \* 5
+n1=13;n2=5
+n3=`expr $n1 / $n2`
+sudo apt-get install bc
+echo "scale=4;13/5" | bc
+read num
+echo $(($a+$b*$c))
+chmod -x file
+if elif else fi
+case esac
+for do done
+while do done
+until do done
+test $num -gt 0
+[ $num -gt 0 ]
