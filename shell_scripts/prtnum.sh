@@ -17,6 +17,10 @@ do
 			lnum=${!i};;
 	esac
 done
-echo "first num: $fnum"
-echo "mid num: $mnum"
-echo "last num: $lnum"
+for ((i=0; i<=$lnum; i+=$mnum))
+do
+	if [ $i -ge $fnum ]
+	then
+		echo $i
+	fi
+done
